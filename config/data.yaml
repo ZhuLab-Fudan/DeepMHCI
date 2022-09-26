@@ -1,0 +1,9 @@
+mhc_seq: data/MHC_pseudo.dat
+train: data/ba_data.txt
+test: data/HPV_vaccine.txt
+cv_id: data/ba_cv_id.txt
+eval_id: data/ba_eval_id.txt
+seq2logo: data/seq2logo-11mer.txt
+epitope: data/epitope.txt
+results: results
+binary: False

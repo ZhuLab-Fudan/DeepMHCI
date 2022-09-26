@@ -1,0 +1,36 @@
+name: DeepMHCI
+path: models
+ensemble: 1
+
+model:
+  emb_size: 16
+  conv_size: [9, 11, 13]
+  conv_num: [128, 64, 32]
+  conv_off: [2, 1, 0]
+  dropout: 0.25
+  linear_size: [256, 128]
+  peptide_pad: 3
+  glu_para:
+    pep_len: 21
+    in_channel: 16
+    hidden_layer_size: 16
+    dropout_rate: 0.1
+
+padding:
+  peptide_len: 15
+  peptide_pad: 3
+  mhc_len: 34
+
+train:
+  batch_size: 128
+  epochs_num: 50
+  opt_params:
+    optimizer_cls: Adadelta
+    lr: 0.9
+    weight_decay: 1e-4
+
+valid:
+  batch_size: 128
+
+test:
+  batch_size: 128
