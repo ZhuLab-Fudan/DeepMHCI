@@ -26,7 +26,7 @@ python main.py -d config/data.yaml -m config/model.yaml --mode epitope -s 0 -n 1
 python main.py -d config/data.yaml -m config/model.yaml --mode seq2logo -s 0 -n 10 --allele HLA-A1101
 ```
 ## Server
-The DeepMHCI server is publicly available at https://weilab.sjtu.edu.cn/DeepMHCI/.
+The DeepMHCI server is publicly available at https://dmiip.sjtu.edu.cn/DeepMHCI.
 
 ## Declaration
 It is free for non-commercial use. For commercial use, please contact Mr.Wei Qu and Prof.Shanfeng Zhu (zhusf@fudan.edu.cn).
