@@ -1,5 +1,5 @@
 # DeepMHCI
-DeepMHCI: A Novel Anchor Position-Aware Deep Interaction Model for Accurate MHC I-peptide Binding Affinity Prediction
+DeepMHCI: An Anchor Position-Aware Deep Interaction Model for Accurate MHC-I peptide Binding Affinity Prediction
 
 ## Requirements
 * python == 3.8.8
